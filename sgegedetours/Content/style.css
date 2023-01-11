@@ -82,11 +82,9 @@ section {
 }
 
 #home-sec {
-    background: url('../imgs/IMG_9950.JPG') no-repeat 40% 60%;
+    background: url('../imgs/IMG_9950.JPG') no-repeat 85% 15%;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+   
     background-size: cover;
     width: 100%;
     display: block;
@@ -103,7 +101,12 @@ section {
     padding: 15px;
     text-transform: uppercase;
 }
-
+.logo {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1em;
+    margin-top: 1px;
+}
 .head-last {
     margin-top: 70px;
     font-size: 18px;
@@ -123,8 +126,9 @@ section {
 
 .navbar-inverse {
     background: #fff;
-    min-height: 60px;
-    padding-top: 5px;
+    min-height: 30px;
+    padding-top: 9px;
+    padding-bottom:2px;
 }
 
     .navbar-inverse .navbar-nav > .active > a {
