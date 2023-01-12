@@ -153,6 +153,9 @@
     <Content Include="imgs\Durb4.jpg" />
     <Content Include="imgs\fall.jpg" />
     <Content Include="imgs\FB_IMG_1673272943507.jpg" />
+    <Content Include="imgs\hart2.jpg" />
+    <Content Include="imgs\hart3.jpg" />
+    <Content Include="imgs\hart4.jpg" />
     <Content Include="imgs\Hartees10.jpg" />
     <Content Include="imgs\Hartees11.jpg" />
     <Content Include="imgs\Hartees12.jpg" />
@@ -175,9 +178,12 @@
     <Content Include="imgs\IMG_9932.JPG" />
     <Content Include="imgs\IMG_9950.JPG" />
     <Content Include="imgs\ladies.jpg" />
+    <Content Include="imgs\Moz4.jpg" />
     <Content Include="imgs\Mpuma1.jpg" />
     <Content Include="imgs\Mpuma2.jpg" />
     <Content Include="imgs\Mpuma3.jpg" />
+    <Content Include="imgs\Mpumalanga2.jpg" />
+    <Content Include="imgs\Mpumalanga3.jpg" />
     <Content Include="imgs\Sgegede tours %281%29.jpg" />
     <Content Include="imgs\Simphiwe.jpg" />
     <Content Include="plugins\bootstrap.min.js" />
