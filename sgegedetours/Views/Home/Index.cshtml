@@ -32,45 +32,73 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .mySlides {
+            display: none;
+            background-size: cover;
+            width: 100%;
+            display: block;
+            height: auto;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            padding-inline: 70px;
+            min-height: 620px;
+            min-width: 850px;
+        }
+    </style>
 </head>
 <body>
     
     <!--HOME SECTION-->
-    <div id="home-sec">
-
-
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <span class="head-main">SGEGEDETOURS</span>
-                    <h3 class="head-last col-md-4 col-md-offset-4  col-sm-6 col-sm-offset-3">For your best curated traveling.</h3>
-
-
-                </div>
-            </div>
+    
+        <div class="w3-content w3-section" style="max-width:700px">
+            <img class="mySlides" src="~/imgs/Cape1.jpg">
+            <img class="mySlides" src="~/imgs/moz3.jpg">
+            <img class="mySlides" src="~/imgs/Mpumalanga3.jpg">
+            <img class="mySlides" src="~/imgs/Cape5.jpg">
+            <img class="mySlides" src="~/imgs/hart5.jpg">
+            <img class="mySlides" src="~/imgs/Mpumalanga2.jpg">
+            <img class="mySlides" src="~/imgs/hart2.jpg">
+            <img class="mySlides" src="~/imgs/hart3.jpg">
         </div>
-    </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 4000); // Change image every 4 seconds
+            }
+        </script>
 
 
-    
-    <!--END HOME SECTION-->
-    <!--FOOTER SECTION -->
-    @*<div id="footer">
-        Sgegedetours | All Right Reserved
 
-    </div>*@
-    <!-- END FOOTER SECTION -->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="~/Content/custom.js"></script>
-    <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="~/plugins/bootstrap.min.js"></script>
-    <!-- ISOTOPE SCRIPT   -->
-    <script src="~/plugins/jquery.isotope.min.js"></script>
-    <!-- PRETTY PHOTO SCRIPT   -->
-    <script src="~/plugins/jquery.prettyPhoto.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    
+        <!--END HOME SECTION-->
+        <!--FOOTER SECTION -->
+        @*<div id="footer">
+            Sgegedetours | All Right Reserved
 
-</body>
+        </div>*@
+        <!-- END FOOTER SECTION -->
+        <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+        <!-- CORE JQUERY  -->
+        <script src="~/Content/custom.js"></script>
+        <!-- BOOTSTRAP CORE SCRIPT   -->
+        <script src="~/plugins/bootstrap.min.js"></script>
+        <!-- ISOTOPE SCRIPT   -->
+        <script src="~/plugins/jquery.isotope.min.js"></script>
+        <!-- PRETTY PHOTO SCRIPT   -->
+        <script src="~/plugins/jquery.prettyPhoto.js"></script>
+        <!-- CUSTOM SCRIPTS -->
+
+
+    </body>
 </html>
